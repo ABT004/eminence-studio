@@ -9,7 +9,7 @@ const CASES = [
     tag: 'Social Media Management',
     tagColor: 'var(--brand-red)',
     title: 'Save Mountain',
-    stat: '',
+    stat: 'Fix',
     statLabel: 'Brand Management ',
   },
   {
