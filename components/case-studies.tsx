@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const CASES = [
   {
-    img: '/case-bloom-cafe.png',
+    img: '/case_study/savemountainlogo.png',
     tag: 'Social Media Management',
     tagColor: 'var(--brand-red)',
     title: 'Save Mountain',
@@ -13,7 +13,7 @@ const CASES = [
     statLabel: 'Brand Management ',
   },
   {
-    img: '/case-skincare.png',
+    img: '/case_study/customshinobilogo.jpg',
     tag: 'Ecommerce',
     tagColor: 'var(--brand-pink)',
     title: 'Custom Shinobi',
@@ -21,7 +21,7 @@ const CASES = [
     statLabel: 'Better ROAS - Meta Ads',
   },
   {
-    img: '/case-fitness.png',
+    img: '/case_study/shinobiwears.jpg',
     tag: 'Clothing',
     tagColor: 'var(--brand-teal)',
     title: 'Shinobi Wears',
