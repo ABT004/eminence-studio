@@ -16,10 +16,63 @@ const nunito = Nunito({
 })
 
 export const metadata: Metadata = {
-  title: 'Eminence Studio — You bloom, we do the rest',
+  metadataBase: new URL('https://eminencestudio.xyz'),
+  title: {
+    default: 'Eminence Studio | Social Media & Digital Marketing Agency in Nepal',
+    template: '%s | Eminence Studio',
+  },
   description:
-    'The playful and fun social media & digital marketing agency. You flourish, we work silently in the background.',
+    'Eminence Studio is a creative social media and digital marketing agency in Nepal helping brands grow with strategy, content, ads and storytelling that converts.',
+  applicationName: 'Eminence Studio',
+  keywords: [
+    'social media agency Nepal',
+    'digital marketing agency Nepal',
+    'brand strategy Nepal',
+    'content creation agency',
+    'marketing agency for small businesses',
+    'social media marketing agency',
+    'Eminence Studio',
+  ],
+  authors: [{ name: 'Eminence Studio' }],
   generator: 'v0.app',
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    url: 'https://eminencestudio.xyz',
+    title: 'Eminence Studio | Social Media & Digital Marketing Agency in Nepal',
+    description:
+      'Creative social media and digital marketing support for brands in Nepal and beyond.',
+    siteName: 'Eminence Studio',
+    locale: 'en_US',
+    images: [
+      {
+        url: '/eminence-logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Eminence Studio logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Eminence Studio | Social Media & Digital Marketing Agency in Nepal',
+    description:
+      'Creative social media and digital marketing support for brands in Nepal and beyond.',
+    images: ['/eminence-logo.png'],
+  },
   icons: {
     icon: [
       { url: '/favicon/favicon.ico', sizes: 'any' },

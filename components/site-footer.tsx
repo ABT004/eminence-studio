@@ -24,8 +24,8 @@ export function SiteFooter() {
           Ready to <span className="text-primary">bloom?</span>
         </h2>
         <p className="mx-auto mt-4 max-w-md text-pretty text-lg font-medium text-muted-foreground">
-          You bring the passion. We&apos;ll do the rest — quietly, playfully,
-          brilliantly.
+          We build social media and digital marketing systems for ambitious brands in Nepal and
+          beyond — thoughtful, playful, and built for growth.
         </p>
 
         <motion.a
@@ -68,13 +68,13 @@ export function SiteFooter() {
       <div className="relative z-10 mx-auto mt-20 flex max-w-6xl flex-col items-center justify-between gap-4 border-t border-foreground/10 pt-8 sm:flex-row">
         <Image
           src="/eminence-logo.png"
-          alt="Eminence Studio"
+          alt="Eminence Studio logo"
           width={150}
           height={60}
           className="h-9 w-auto"
         />
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Eminence Studio. You bloom, we do the rest.
+          © {new Date().getFullYear()} Eminence Studio. Social media & digital marketing agency in Nepal.
         </p>
         <div className="flex flex-wrap justify-center gap-2 text-sm font-semibold text-muted-foreground">
           <a

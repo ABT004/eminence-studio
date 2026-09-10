@@ -14,37 +14,37 @@ const SERVICES = [
   {
     icon: Camera,
     title: 'Social Media Management',
-    desc: 'Daily posting, community love and scroll-stopping content across every platform.',
+    desc: 'Daily posting, community love and scroll-stopping content for brands in Nepal and across the world.',
     color: 'var(--brand-purple)',
   },
   {
     icon: Megaphone,
     title: 'Digital Marketing',
-    desc: 'Paid campaigns that actually convert — smart targeting, sharper budgets.',
+    desc: 'Paid campaigns that convert with smarter targeting, efficient budgets and measurable growth.',
     color: 'var(--brand-blue)',
   },
   {
     icon: PenTool,
     title: 'Content Creation',
-    desc: 'Reels, graphics and copy crafted to make your audience stop and smile.',
+    desc: 'Reels, graphics and copy designed to help your audience stop, trust and take action.',
     color: 'var(--brand-red)',
   },
   {
     icon: Palette,
     title: 'Brand Identity',
-    desc: 'A look and voice that feels unmistakably, delightfully you.',
+    desc: 'A brand look and voice that feels unmistakably you and memorable at first glance.',
     color: 'var(--brand-teal)',
   },
   {
     icon: BarChart3,
     title: 'Growth Analytics',
-    desc: 'We watch the numbers so you can watch them climb — clearly, no jargon.',
+    desc: 'Clear reporting and strategy updates so your marketing decisions stay sharp and effective.',
     color: 'var(--brand-yellow)',
   },
   {
     icon: Sparkles,
     title: 'Influencer Magic',
-    desc: 'The right creators, the right vibe, real relationships that resonate.',
+    desc: 'Creator partnerships built around trust, culture and campaigns that actually resonate.',
     color: 'var(--brand-pink)',
   },
 ]
@@ -58,8 +58,8 @@ export function ServicesGrid() {
             What we do
           </p>
           <h2 className="font-display text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            Everything your brand needs to{' '}
-            <span className="text-primary">bloom</span>
+            Social media and digital marketing services built to{' '}
+            <span className="text-primary">grow your brand</span>
           </h2>
         </div>
 

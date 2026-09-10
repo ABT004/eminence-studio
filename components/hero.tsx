@@ -54,7 +54,7 @@ export function Hero() {
           className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-secondary px-4 py-1.5 text-sm font-semibold text-primary"
         >
           <span className="size-2 rounded-full bg-brand-teal" />
-          Social media & digital marketing, the fun way
+          Social media & digital marketing agency in Nepal
         </motion.span>
 
         <motion.h1
@@ -92,8 +92,9 @@ export function Hero() {
           transition={{ delay: 0.9, duration: 0.6 }}
           className="mx-auto mt-7 max-w-xl text-pretty text-lg font-medium leading-relaxed text-muted-foreground"
         >
-          You flourish. We work silently in the background — planning, posting and
-          polishing so your brand blooms while you do what you love.
+          We help brands in Nepal and beyond grow with smarter social media strategy,
+          engaging content, paid campaigns and audience-first marketing that turns attention into
+          real results.
         </motion.p>
 
         <motion.div
