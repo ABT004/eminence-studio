@@ -9,6 +9,7 @@ const NAV = [
   { label: 'About', href: '#about', color: 'var(--brand-teal)' },
   { label: 'Services', href: '#services', color: 'var(--brand-red)' },
   { label: 'Case Studies', href: '#work', color: 'var(--brand-yellow)' },
+  { label: 'Blog', href: '/blog', color: 'var(--brand-pink)' },
   { label: 'Contact', href: '#play', color: 'var(--brand-blue)' }
 ]
 
