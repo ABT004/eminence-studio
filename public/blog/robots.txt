@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: //eminencestudio.xyz/wp-sitemap.xml
+Sitemap: https://eminencestudio.xyz/blog/wp-sitemap.xml
